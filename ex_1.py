@@ -1,0 +1,8 @@
+age=int(input("enter your age:"))
+height=float(input("enter your height:"))
+name=input("enter your name:")
+are_you_student=bool(input("are you a student True/False:"))
+print(age)
+print(height)
+print(name)
+print(are_you_student)
