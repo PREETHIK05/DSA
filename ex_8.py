@@ -1,9 +1,9 @@
-signal=input('enter the colour of traffic signal in lowercase:')
-if(signal=='red'):
+signal=input('enter the colour of traffic signal :')
+if(signal.lower()=='red'):
     print("STOP!")
-elif(signal=='yellow'):
+elif(signal.lower()=='yellow'):
     print("Prepare to stop")
-elif(signal=='green'):
+elif(signal.lower()=='green'):
     print("You can go")
 else:
     print("Wrong input!")
